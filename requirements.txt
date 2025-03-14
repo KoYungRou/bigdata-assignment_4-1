@@ -3,7 +3,7 @@ streamlit==1.24.0
 streamlit-chat==0.0.2.2
 
 # Backend dependencies
-fastapi==0.103.1         # ✅ 升級 FastAPI >= 0.100.0
+fastapi==0.103.1         # ✅ 升級 fastapi (>=0.100.0 支援 pydantic v2)
 uvicorn==0.23.2
 pydantic>=2.0.0
 python-multipart==0.0.6
