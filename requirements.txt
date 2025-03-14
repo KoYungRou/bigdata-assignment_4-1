@@ -3,7 +3,7 @@ streamlit==1.24.0
 streamlit-chat==0.0.2.2
 
 # Backend dependencies
-fastapi==0.103.1         # ✅ 升級 fastapi (>=0.100.0 支援 pydantic v2)
+fastapi==0.103.1               # ✅ 支援 pydantic v2
 uvicorn==0.23.2
 pydantic>=2.0.0
 python-multipart==0.0.6
@@ -16,7 +16,7 @@ pdfminer.six==20221105
 # LLM integration
 litellm>=1.40.14
 tiktoken==0.4.0
-anthropic==0.5.0
+anthropic>=0.5.0
 openai>=1.0.0
 
 # Utilities
