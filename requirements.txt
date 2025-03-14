@@ -5,7 +5,7 @@ streamlit-chat==0.0.2.2
 # Backend dependencies
 fastapi==0.95.2
 uvicorn==0.22.0
-pydantic==1.10.8
+pydantic>=2.0.0          # ✅ 升級以符合 LiteLLM 最新需求
 python-multipart==0.0.6
 redis==4.5.5
 
@@ -14,10 +14,10 @@ pypdf2==3.0.1
 pdfminer.six==20221105
 
 # LLM integration
-litellm>=1.40.14
+litellm>=1.40.14         # ✅ 改成支援版本（解決找不到 0.1.925）
 tiktoken==0.4.0
 anthropic==0.5.0
-openai==0.27.8
+openai>=1.0.0            # ✅ LiteLLM v1.x 需要 openai>=1.0.0
 
 # Utilities
 python-dotenv==1.0.0
